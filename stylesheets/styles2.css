@@ -1,0 +1,299 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+body{
+	background-color: white;
+	margin: 0;
+}
+h4{
+	font-family: 'Open-Sans', Sans-Serif;
+	font-weight: 400;
+}
+h2, h1{
+	font-size: 40px;
+	font-family: 'Open-Sans', Sans-Serif;
+	font-weight: 300;
+}
+p{
+	font-size: 18px;
+	font-family: 'Open-Sans', Sans-Serif;
+	font-weight: 300;
+}
+.tarjetas{
+	display: inline-block;
+	float: left;
+	margin-top: -4px;
+	width: 60px;
+}
+.camiones{
+	display: inline-block;
+	float: left;
+	margin-top: -4px;
+	width: 60px;
+}
+.cleaner{
+	clear: both;
+}
+#contenedor1{
+	position: relative;
+	top: 60px;
+	margin-top: 0;
+	padding: 3.5% 25% 3.5%;
+	background: url("../images/003.jpg") center top no-repeat;
+	margin-bottom: 7.5%;
+	background-position: 50% 75%;
+}
+#contenedor1 h1{
+	text-align: center;
+	color: white;
+}
+#contenedor1 p{
+	text-align: center;
+	color: white;
+}
+#contenedor2{
+	display: block;
+	margin: 0;
+	padding: 0 17.5%;
+}
+#contenedor2 h3{
+	font-size: 20px;
+	color: rgb(233, 95, 88);
+	font-weight: 600;
+}
+#contenedor2 p{
+	font-size: 15px;
+	color: rgb(150, 150, 150);
+}
+#imagen1{
+	text-align: center;
+	padding: 2% 0 3%;
+	width: 100%;
+}
+.columnas1{
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 30px; /* Firefox */
+    column-gap: 30px;
+    padding-bottom: 5%;
+}
+#contenedor3{
+	display: block;
+	margin: 0;
+	padding: 1.5% 0 2%;
+	background-color: rgb(40, 212, 194);
+	color: white;
+	font-family: 'Open-Sans', Sans-Serif;
+	text-align: center;
+}
+#contenedor4 p{
+	padding: 3% 17.5%;
+	text-align: center;
+	color: rgb(150, 150, 150);
+	font-style: italic;
+	font-family: 'Open-Sans', Sans-Serif;
+}
+#contenedor5{
+	display: block;
+	margin: 0;
+	padding: 0 17.5%;
+}
+#contenedor5 h3{
+	font-size: 20px;
+	color: rgb(47, 163, 217);
+	font-weight: 600;
+}
+#contenedor5 p{
+	font-size: 15px;
+	color: rgb(150, 150, 150);
+	margin: 0;
+	padding: 1.5% 0;
+}
+#imagen2{
+	text-align: center;
+	padding: 1.5% 0;
+	width: 100%;
+}
+#contenedor6{
+	margin-top: 0;
+	padding: 0;
+	background: url("../images/0004.jpg") center top no-repeat;
+	background-position: 10% 50%;
+}
+#contenedor6 h2{
+	color: white;
+	text-align: center;
+	padding-top: 2.5%;
+}
+#contenedor6 #contenedor4{
+	padding: 0;
+	text-align: center;
+	color: rgb(150, 150, 150);
+	font-style: italic;
+	font-family: 'Open-Sans', Sans-Serif;
+}
+#contenedor6 #contenedor4 p{
+	color: white;
+}
+#contenedor7{
+	display: block;
+	margin: 0;
+	padding: 0 17.5%;
+}
+#contenedor7 p{
+	font-size: 15px;
+	color: white;
+}
+#carpasvg{
+	width: 70%;
+	margin: auto;
+	padding-bottom: 3%;
+}
+#contenedor8{
+	margin: auto;
+	padding: 0 17.5%;
+}
+#contenedor8 h3{
+	font-size: 40px;
+	color: rgb(233, 95, 88);
+	text-align: center;
+	padding: 1.5% 0 2%;
+}
+#contenedor8 p{
+	font-size: 15px;
+	color: rgb(150, 150, 150);
+}
+#ticketssvg{
+	position: relative;
+	right: 45px;
+	width: 120%;
+}
+#contenedor9{
+	display: block;
+	margin: 0;
+	padding: 0 17.5%;
+}
+#contenedor9 h3{
+	font-size: 20px;
+	color: rgb(233, 95, 88);
+	font-weight: 600;
+}
+#contenedor9 p{
+	font-size: 15px;
+	color: rgb(150, 150, 150);
+}
+#gracias{
+	text-align: center;
+}
+#graciassvg{
+	display: inline;
+	width: 40%;
+	padding-bottom: 3%;
+}
+#pngcards{
+    width: 100%;
+    height: 105px;
+    background: url('http://www.entradafan.com.ar/VistasNew/images/png/sprite_png.png') -72px -95px;
+    background-repeat: no-repeat;
+    border-top: 1px dashed #6B6F79;
+    border-bottom: 1px dashed #6B6F79;
+}
+#correccioncolor{
+	color: rgb(150 150 150);
+}
+.invisible{
+	display: none;
+	width: 0;
+	height: 0;
+	padding: 0;
+	margin: 0;
+}
+#invisiblecarpa{
+	display: none;
+}
+@media (max-width: 360px){
+	h2{
+		font-size: 26px;
+	}
+	p{
+		font-size: 14px;
+	}
+	#contenedor1{
+		position: relative;
+		top: 30px;
+		margin-top: 0;
+		padding: 3.5% 0 3.5%;
+		background-color: rgb(233, 95, 88);
+		margin-bottom: 15%;
+	}
+	#contenedor2{
+		padding: 0 5%;
+	}
+	.columnas1{
+		-webkit-column-count: 1; /* Chrome, Safari, Opera */
+	    -moz-column-count: 1; /* Firefox */
+	    column-count: 1;
+	    -webkit-column-gap: 0; /* Chrome, Safari, Opera */
+	    -moz-column-gap: 0; /* Firefox */
+    	column-gap: 0;
+    	padding-bottom: 2%;
+	}
+	#contenedor4 p{
+		padding: 3% 5%;
+	}
+	#contenedor5{
+		padding: 0 5%;
+	}
+	#contenedor6{
+		margin-top: -75%;
+		padding-top: 80%;
+		background-position: 10% 50%;
+		padding-bottom: 95%;
+		margin-bottom: -95%;
+	}
+	#contenedor6 h2{
+		color: white;
+		text-align: center;
+		padding-top: 2.5%;
+	}
+	#contenedor6 #contenedor4{
+		padding: 0;
+	}
+	#contenedor7{
+		padding: 0 5%;
+	}
+	#carpasvg{
+		width: 100%;
+		margin: auto;
+		padding-bottom: 3%;
+	}
+	#invisiblecarpa{
+		display: block;
+	}
+	.carpa{
+		display: block
+	}
+	#invisibleres{
+		display: none;
+	}
+	#contenedor8{
+		margin: auto;
+		padding: 0 5%;
+	}
+	/** OCULTAR GUITARRA EN VERSION MOVIL **/
+	/*#novismov{
+		display: none;
+	}*/
+	#ticketssvg{
+		position: relative;
+		right: 100;
+		width: 120%;
+	}
+	#contenedor9{
+		padding: 0 5%;
+	}
+	#graciassvg{
+		width: 100%;
+		padding-bottom: 3%;
+	}
+};
