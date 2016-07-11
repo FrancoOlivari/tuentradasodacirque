@@ -44,8 +44,10 @@ p{
 #contenedor1 h1{
 	text-align: center;
 	color: white;
+	position: relative;
+	top: -30px;
 }
-#contenedor1 p{
+#contenedor1 #parrafocontenedor1{
 	text-align: center;
 	color: white;
 }
@@ -219,6 +221,94 @@ p{
 #invisiblecarpa{
 	display: none;
 }
+#contenedorshare{
+	float: right;
+	width: 25%;
+	text-align: center;
+}
+#comparte1{
+	float: left;
+	display: inline;
+	margin-right: 3%;
+	margin-top: 2.5%;
+}
+ul.share-buttons{
+	list-style: none;
+	padding: 0;
+}
+ul.share-buttons li{
+	display: inline;
+}
+#primerboton{
+	margin-right: 1.5%;
+}
+#contenedorshare2{
+	margin: auto;
+	text-align: center;
+	width: 25%;
+}
+#comparte2{
+	font-size: 15px;
+	color: rgb(150, 150, 150);
+}
+.btn-no-border{
+	border: none;
+}
+.btn-success {
+    box-shadow: 0 -3px 0 #64a70b inset;
+    background: #72bf0d;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+a, a:active, a:focus {
+    outline: none;
+}
+#tamaño{
+	margin-left: 41%;
+	width: 18%;
+	height: 46px;
+	font-size: 18px;
+	font-family: "Open Sans", sans-serif;
+	line-height: 1.52857;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+#botoncomprar{
+	margin: auto;
+}
+#breadcrumbcontenedor1{
+	text-align: left;
+	color: white;
+	float: left;
+	position: relative;
+	top: -35px;
+	left: -45%;
+}
+#breadcrumblinks{
+	text-decoration: none;
+	color: white;
+}
+#breadcrumblinks2{
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+}
 @media (max-width: 420px){
 	h2{
 		font-size: 26px;
@@ -306,5 +396,37 @@ p{
 	#graciassvg{
 		width: 100%;
 		padding-bottom: 3%;
+	}
+	#tamaño{
+		margin-left: 20%;
+		width: 60%;
+		height: 46px;
+		font-size: 18px;
+		font-family: "Open Sans", sans-serif;
+		line-height: 1.52857;
+		font-weight: 700;
+		margin-bottom: 5px;
+	}
+	#contenedor1 h1{
+		text-align: center;
+		color: white;
+		position: inline;
+		margin-bottom: -5%;
+	}
+	#contenedor1 #parrafocontenedor1{
+		padding: 0 3.5%;
+	}
+	#contenedorshare{
+		float: right;
+		width: 60%;
+		text-align: center;
+	}
+	#contenedorshare2{
+		width: 40%;
+	}
+	#breadcrumbcontenedor1{
+		position: relative;
+		top: -10px;
+		left: 10px;
 	}
 };
