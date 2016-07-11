@@ -258,6 +258,16 @@ ul.share-buttons li{
     box-shadow: 0 -3px 0 #64a70b inset;
     background: #72bf0d;
 }
+.btn-success:hover {
+    box-shadow: 0 -4px 0 #5e9e0b inset;
+    background: #78c90e;
+    border: none;
+}
+.btn-success:focus {
+    background: #64a70b !important;
+    box-shadow: 0 -5px 0 #5e9e0b inset;
+    border: none;
+}
 .btn {
     display: inline-block;
     margin-bottom: 0;
@@ -303,11 +313,13 @@ a, a:active, a:focus {
 #breadcrumblinks{
 	text-decoration: none;
 	color: white;
+	font-size: 14px;
 }
 #breadcrumblinks2{
 	text-decoration: none;
 	color: white;
 	font-weight: 700;
+	font-size: 14px;
 }
 @media (max-width: 420px){
 	h2{
